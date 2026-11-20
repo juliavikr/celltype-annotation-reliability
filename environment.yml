@@ -1,0 +1,24 @@
+name: celltype-rel
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - jupyterlab
+  - numpy
+  - pandas
+  - pyarrow
+  - openpyxl
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - leidenalg
+  - python-igraph
+  - pytest
+  - pip:
+      - scanpy
+      - anndata
+      - cellxgene-census
+      - cellxgene-ontology-guide
+      - celltypist
+      - -e .

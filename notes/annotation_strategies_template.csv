@@ -1,0 +1,2 @@
+dataset_id,collection_name,doi,strategy,tool_or_reference,markers_named,clustering_resolution,n_author_labels,author_label_column,notes
+example_id,Example study,10.xxxx/xxxx,manual_markers,,CD3E;MS4A1;CD14,1.0,25,author_cell_type,

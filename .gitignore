@@ -1,0 +1,14 @@
+# data never goes to git (too big); see data/README.md
+data/*
+!data/README.md
+*.h5ad
+*.parquet
+results/*.csv
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+# OS
+.DS_Store
+.pytest_cache/

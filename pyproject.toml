@@ -1,0 +1,12 @@
+[project]
+name = "celltype_rel"
+version = "0.1.0"
+description = "Helpers for assessing consistency of cell-type annotations"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
