@@ -31,16 +31,16 @@ If you fall behind: in Week 3, Findings 1, 2 and 4 (strategy part) are enough fo
 ## Week 1 · Fri 20 – Thu 26 Nov · Foundations
 
 **Fri 20 Nov: set up**
-- [ ] Clone this repo: `git clone https://github.com/juliavikr/celltype-annotation-reliability.git`
-- [ ] Install Miniconda, then `conda env create -f environment.yml` and `conda activate celltype-rel`
-- [ ] Check: `pytest` passes (3 tests), `jupyter lab` opens
-- [ ] Email the professor about presentation date, format, length, audience
+- [x] Clone this repo: `git clone https://github.com/juliavikr/celltype-annotation-reliability.git`
+- [x] Install Miniconda, then `conda env create -f environment.yml` and `conda activate celltype-rel`
+- [x] Check: `pytest` passes (3 tests), `jupyter lab` opens
+- [x] Email the professor about presentation date, format, length, audience
 
 **Sat 21 – Sun 22 Nov: biology basics + Luecken & Theis (2019)**
-- [ ] Watch a short intro to DNA → RNA → protein and to single-cell RNA-seq (search "10x Genomics single cell explained")
-- [ ] Read chapters 1–2 of the free book *Single-cell best practices* (sc-best-practices.org), the updated version of the Luecken paper
-- [ ] Luecken: first pass (abstract, figures, headings), then the pre-processing section and the clustering / cluster annotation section
-- [ ] Fill in `notes/glossary.md` and `notes/papers/luecken.md`
+- [x] Watch a short intro to DNA → RNA → protein and to single-cell RNA-seq (search "10x Genomics single cell explained")
+- [x] Read chapters 1–2 of the free book *Single-cell best practices* (sc-best-practices.org), the updated version of the Luecken paper
+- [x] Luecken: first pass (abstract, figures, headings), then the pre-processing section and the clustering / cluster annotation section
+- [x] Fill in `notes/glossary.md` and `notes/papers/luecken.md`
 
 **Mon 23 Nov: hands-on**
 - [ ] Notebook `00_learning_pbmc3k`: run the scanpy PBMC 3k tutorial, explaining each step in your own words
