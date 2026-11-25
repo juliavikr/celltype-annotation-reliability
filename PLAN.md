@@ -12,7 +12,7 @@ Tick the boxes as you go (edit this file on GitHub or locally and commit). Each 
 |---|----------|--------------|----------|
 | 1 | **Granularity:** how specific are each study's labels? | Number of labels and Cell Ontology depth per dataset | `02` |
 | 2 | **Biological identity:** do labelled cells express the right marker genes? | CellMarker 2.0 marker scores per labelled population | `04` |
-| 3 | **Cross-study agreement:** do studies call the same cells the same thing? | Train on study A, predict study B; exact / compatible / conflict | `05` |
+| 3 | **Cross-study agreement:** do studies call the same cells the same thing? | Train on study A, predict study B; exact / compatible / conflict. I i dont find datasets I should check the pretrained models themselves: GeneFormer OR scGPT | `05` |
 | 4 | **Explanation:** are disagreements due to annotation strategy or ontology usage? | Annotation strategy table + author labels vs CL terms | `06` |
 
 ## Overview
